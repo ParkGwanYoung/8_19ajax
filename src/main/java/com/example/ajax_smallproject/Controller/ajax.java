@@ -10,7 +10,7 @@ import org.springframework.web.client.RestTemplate;
 
 @CrossOrigin
 @RestController
-public class RestOpenWeatherController {
+public class ajax {
     @RequestMapping(value = "/remote/openweather")
     public Object actionMethod() {
         RestTemplate restTemplate = new RestTemplate();
